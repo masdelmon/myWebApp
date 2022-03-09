@@ -4,7 +4,7 @@
     stages {
         stage('build') {
             steps {
-                sh 'sudo su jenkins && mvn clean package'
+                sh 'mvn clean package'
             }
         }  
       }
